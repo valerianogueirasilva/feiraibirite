@@ -1,0 +1,27 @@
+/*
+
+*/
+
+.HeaderClass {
+   text-align: center;
+   background: green;
+   padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.FooterClass{
+	text-align: center;
+	padding:20px;
+}

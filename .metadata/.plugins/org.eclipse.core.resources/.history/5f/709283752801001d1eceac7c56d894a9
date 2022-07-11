@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Feira Social do Morada da Serra</title>
+<link rel="stylesheet" type="text/css" href="Css/cssfile.css" >
+<header id="HeaderId" class="HeaderClass">
+<h1 id="H1HeaderId" class="H1HeaderClass">Feira do morada da Serra</h1>
+<h3 id="H3HeaderId" class="H3HeaderClass">Segunda Edição da Feira mais animada da região de Ibirité</h3>
+</header>
+
+</head>
+<body>
+
+<div class="row">
+  <div class="column side">
+    <h2>Contate-nos</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Expositores</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+
+<div class="column side">
+    <h2>Atrações</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+  </div>
+</div
+
+
+<footer ide="FooterId" class="FooterClass" >Copyright (c) 2022 Feira do Morada da Serra <br> All Rights Reserved <br>
+ 
+This product is protected by copyright and distributed under
+licenses restricting copying, distribution, and decompilation. </footer>
+	
+</body>
+</html>

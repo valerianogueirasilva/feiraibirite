@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+
+//* Segunda Feira Morada da Serra*//
+. H1HeaderClass{
+align:center
+ font-family: "Lucida Console", "Courier New", monospace;
+}	
