@@ -2,34 +2,54 @@
 <html lang="en">
 <head>
 <title>Contato</title>
-<link rel="stylesheet" type="text/css" href="Css/cssfile.css" >
+<link rel="stylesheet" type="text/css" href="Css/Main.css" >
+<link rel="stylesheet" type="text/css" href="Css/ContactForm.css" >
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
 
-<header class="header">
-  <h1>Header</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
+<header class="semantic-header">
+  <object width="100%" height="300px" data="ObjectPages/HeaderAndNavObject.html"></object>
 </header>
 
-<nav class="topnav">
-  <a href="Index.html">Home</a>
-  <a href="#">Contato</a>
-  <a href="#">Link</a>
-</nav>
-
 <section class="row">
-<p>E-mail: <br> Telefone: <br> </p>
+<br>
+<br>
+<br>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Nome</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Sobrenome</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="country">Algo que precise selecionar</label>
+    <select id="country" name="country">
+      <option value="australia">Algo</option>
+      <option value="canada">Algo Mais</option>
+      <option value="usa">Nada</option>
+    </select>
+
+    <label for="subject">Sua mensagem...</label>
+    <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+<br>
+<br>
+<br>
 </section>
 
-<footer id="FooterId" class="FooterClass" > 
-Copyright (c) 2022 Feira do Morada da Serra <br> All Rights Reserved <br>
- 
-This product is protected by copyright and distributed under
-licenses restricting copying, distribution, and decompilation. 
+<footer class="semantic-footer">
+  <object width="100%" height="100px" data="ObjectPages/FooterContentObject.html"></object>
 </footer>
+
 </body>
 </html>
 
