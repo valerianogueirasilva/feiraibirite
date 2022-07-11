@@ -1,0 +1,79 @@
+/*
+Author: Valeria Nogueira 
+Date: 11 july 2022
+Section: Social Project
+
+https://coolors.co/f94144-f3722c-f8961e-fdc9b0-f9c74f-74a94c-43aa8b-4f9290-ffffff-040d10
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Style the header */
+.header {
+  background: #43AA8B;
+  padding: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #040D10;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.FooterClass {
+	text-align: center;
+	padding: 20px;
+	background: #43AA8B;
+	font-size: 13px;
+}
+
+
