@@ -1,0 +1,45 @@
+/*
+* Author: Valeria Nogueira 
+* Date: 11 july 2022
+* Section: Semantic Layout for all pages
+* See: https://coolors.co/f94144-f3722c-f8961e-fdc9b0-f9c74f-74a94c-43aa8b-4f9290-ffffff-040d10
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: NotoSans,Arial,"Arial Unicode MS",sans-serif;
+}
+
+header {
+	width: 100%;
+}
+
+h2{
+	text-align:center;
+}
+
+object.object-header-and-nav-class {
+	width: 100%;
+	height: 400px;
+}
+
+section.main-section {
+	
+}
+
+/* Clear floats after the columns */
+section.main-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+width: 100%;
+}
+
