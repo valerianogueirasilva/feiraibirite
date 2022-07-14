@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>Contato</title>
-<link rel="stylesheet" type="text/css" href="Css/Main.css" >
+<link rel="stylesheet" type="text/css" href="Css/MainLayout.css" >
 <link rel="stylesheet" type="text/css" href="Css/ContactForm.css" >
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
 <body>
 
 <header class="semantic-header">
-  <object class="object-header-class" data="ObjectPages/HeaderAndNavObject.html"></object>
+  <object class="object-header-and-nav-class" data="ObjectPages/HeaderAndNavObject.html"></object>
 </header>
 
 <section class="row">
@@ -27,11 +27,13 @@
     <label for="lname">Sobrenome</label>
     <input type="text" id="lname" name="lastname">
 
-    <label for="country">Algo que precise selecionar</label>
+    <label for="country">Assunto</label>
     <select id="country" name="country">
-      <option value="australia">Algo</option>
-      <option value="canada">Algo Mais</option>
-      <option value="usa">Nada</option>
+      <option value="vazio">...</option>
+      <option value="patrocinar">Quero ser patrocinador</option>
+      <option value="expor">Quero ser expositor</option>
+      <option value="sugerir">Sugestões</option>
+      <option value="outros">Outros</option>
     </select>
 
     <label for="subject">Sua mensagem...</label>
