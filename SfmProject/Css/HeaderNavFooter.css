@@ -16,29 +16,29 @@ body {
 
 /* Style the header */
 .header-content {
-  background: #000000;
+  background: #ced4da;
   padding: 40px;
   text-align: center;
   font-size: 18px;
-  color: #E85D04;
+  color: #000000;
 }
 
 
 /* Style the top navigation bar */
 .nav-content {
   overflow: hidden;
-  background-color: #333;
+  background-color: #6c757d;
 }
 
 /* Style the topnav links */
 .nav-content a {
   float: left;
   display: block;
-  color: #E85D04;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  bacground:#111111;
+  background: #6c757d;
 }
 
 /* Change color on hover */
@@ -51,9 +51,9 @@ body {
 .footer-content {
 	text-align: center;
 	padding: 20px;
-	background: #000000;
+	background: #ced4da;;
 	font-size: 13px;
-	color: #E85D04;
+	color: #000000;
 }
 
 
