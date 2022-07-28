@@ -1,8 +1,0 @@
-@charset "ISO-8859-1";
-
-//* Segunda Feira Morada da Serra*//
-.H1HeaderClass {
-  position: absolute;
-   padding: 10px;
-   align: center;
-}	

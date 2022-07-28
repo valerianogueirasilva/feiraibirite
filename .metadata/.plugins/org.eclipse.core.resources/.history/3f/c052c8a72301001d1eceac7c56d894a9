@@ -1,9 +1,0 @@
-/*
-
-*/
-
-.HeaderClass {
-   text-align: center;
-   background: green;
-   padding: 40px;
-}

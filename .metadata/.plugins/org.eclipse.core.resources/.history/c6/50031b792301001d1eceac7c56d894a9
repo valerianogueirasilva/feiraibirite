@@ -1,8 +1,0 @@
-/*
-
-*/
-
-.HeaderClass {
-   text-align: center;
-   background: green;
-}
